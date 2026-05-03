@@ -4,7 +4,18 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+
+            /*
+            Problema5 motor = new Problema5();
+
+            Sale venta1 = new RetailSale(100);
+            Console.WriteLine(motor.ObtenerImporteFinal(venta1)); // Resultado: 100
+
+            Sale venta2 = new WholesaleSale(100);
+            Console.WriteLine(motor.ObtenerImporteFinal(venta2)); // Resultado: 90
+            */
+
+
         }
     }
 }
