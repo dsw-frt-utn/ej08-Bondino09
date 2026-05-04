@@ -23,10 +23,11 @@ namespace Dsw2026Ej8
         
         public string CompararCopias (int originalValue, Product product)
         {
-            int copiaValue = originalValue + 1;
+            int copiaValue = originalValue;
+            copiaValue++;
             Product producto = product;
             producto.setDescription("Descripcion");
-            return $"{originalValue}-{copiaValue}-{producto.getDescription}";
+            return $"{originalValue}-{copiaValue}-{producto.getDescription()}";
         }
     }
 }

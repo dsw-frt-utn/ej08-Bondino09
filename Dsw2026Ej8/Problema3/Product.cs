@@ -21,11 +21,11 @@ namespace Dsw2026Ej8
 
         public string getDescription()
         {
-            return this._description;
+            return _description;
         }
         public void setDescription(string description)
         {
-            this._description = description;
+            _description = description;
         }
     }
 }

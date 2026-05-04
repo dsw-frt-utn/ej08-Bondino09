@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace MisExtensiones
+namespace Dsw2026Ej8
 {
     static class Extensions
     {
